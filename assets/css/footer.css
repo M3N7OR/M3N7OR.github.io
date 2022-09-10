@@ -1,0 +1,161 @@
+:root{
+    --mount-meadow:#1bbc9c;
+    --white-smoke:#f0f0f0;
+    --night-rider:#343434;
+    --black:#191b17;
+    transition: all 0.5s ease-in-out;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+html{
+    background-color: whitesmoke;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+}
+@media (max-height:800px){
+    footer{
+        position: static;
+    }
+}
+.ftr{
+    background-color: #2d2a30;
+    box-sizing: border-box;
+    widows: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+    border-top-left-radius: 10%;
+}
+.ftr .ftrlt, .ftr .ftr-center, .ftr .ftrrt{
+    display: inline-block;
+    vertical-align: top;
+}
+.ftr .ftrlt{
+    width: 30%;
+}
+.ftr h3{
+    color: white;
+    font: normal 36px 'cookie',cursive;
+    margin: 0;
+}
+.ftr span{
+    color: silver;
+}
+.ftr .ftr-links{
+    color: white;
+    margin: 20px 0 12px;
+    font-size: large;
+}
+.ftr .ftr-links a{
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+.ftr .ftr-company-name{
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+.ftr .ftr-center{
+    width: 35%;
+}
+.ftr .ftr-center i{
+    background-color: #33383b;
+    color: white;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+.ftr .ftr-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+}
+.ftr .ftr-center p{
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+    margin: 0;
+}
+.ftr .ftr-center p span{
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+.ftr .ftr-center p a{
+    color: silver;
+    text-decoration: none;
+}
+.ftr .ftrrt{
+    width: 30%;
+}
+.ftr .ftr-about{
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+.ftr .ftr-about span{
+    display: block;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.ftr .ftr-icons{
+    margin-top: 25px;
+}
+.ftr .ftr-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+.ftr .ftr-icons a:hover{
+    background-color: var(--mount-meadow);
+}
+.ftr-links a:hover{
+    color: var(--mount-meadow);
+}
+.ftr .ftr-icons{
+    border-radius: 50%;
+}
+.ftr-links span{
+    font-size: 12px;
+    font-weight: 200;
+}
+@media(max-width:880px){
+    .ftr .ftr-links, .ftr .ftr-center, .ftr .ftrrt{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .ftr .ftr-center i{
+        margin-left: 0;
+    }
+}
