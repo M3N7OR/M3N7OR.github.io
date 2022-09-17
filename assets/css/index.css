@@ -21,7 +21,6 @@ html {
     line-height: 1.5;
     text-rendering: optimizeLegibility;
     scroll-behavior: smooth;
-     overflow-x: hidden;
 }
 .banner {
     width: 100%;
@@ -411,7 +410,10 @@ p2 {
     font-size: 20px;
     font-style: italic;
 }
-
+@media only screen and (max-width: 1000px){ 
+    html,body{
+        overflow-x: hidden;
+    }
 
 @media screen and (min-width: 992px) {
     .navbar {
