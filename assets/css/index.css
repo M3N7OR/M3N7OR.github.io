@@ -420,9 +420,6 @@ p2 {
    .wrapper{
        flex-wrap: wrap;
     }
-    .ftr{
-        flex-wrap: nowrap;
-    }
     
 @media screen and (min-width: 992px) {
     .navbar {
