@@ -424,12 +424,13 @@ p2 {
     .ftr{
         flex-wrap: nowrap;
     }
-    .text{
-        text-align:center;
-        color:black;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size:25px;
-    }
+    .title .text {
+    font-weight: 200;
+    font-size: 3.1rem;
+    font-family: sans-serif;
+    text-decoration: dashed;
+}
+    
 @media screen and (min-width: 992px) {
     .navbar {
         background: transparent;
