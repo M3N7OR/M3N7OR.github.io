@@ -368,6 +368,7 @@ p {
     margin-left: 25px;
     gap: 1.1rem;
 }
+
 @media screen and (min-width:768px) {
     .detail .row {
         display: grid;
@@ -413,6 +414,10 @@ p2 {
 @media only screen and (max-width: 1000px){ 
     html,body{
         overflow-x: hidden;
+    }
+@media only screen and (max-width: 540px){ 
+    .card{
+        width: 100%;
     }
 
 @media screen and (min-width: 992px) {
