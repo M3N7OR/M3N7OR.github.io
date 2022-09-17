@@ -27,6 +27,9 @@ footer{
     .ftr{
         flex-wrap:nowrap;
      }
+    .ftrlt{
+        flex-wrap:nowrap;
+    }
     }
 .ftr{
     background-color: #2d2a30;
