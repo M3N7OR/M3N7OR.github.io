@@ -416,7 +416,7 @@ p2 {
         overflow-x: hidden;
     }
 @media only screen and (max-width: 540px){ 
-   .container{
+   .wrapper{
        flex-wrap: wrap;
     }
 
