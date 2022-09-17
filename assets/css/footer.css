@@ -157,4 +157,8 @@ footer{
     .ftr .ftr-center i{
         margin-left: 0;
     }
-}
+@media only screen and (max-width: 540px){ 
+    .ftr{
+        flex-wrap: nowrap;
+     }
+    }
