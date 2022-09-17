@@ -21,6 +21,7 @@ html {
     line-height: 1.5;
     text-rendering: optimizeLegibility;
     scroll-behavior: smooth;
+     overflow-x: hidden;
 }
 .banner {
     width: 100%;
