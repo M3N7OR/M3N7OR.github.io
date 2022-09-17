@@ -424,6 +424,10 @@ p2 {
     .ftr{
         flex-wrap: nowrap;
     }
+    .text{
+        font-size:25px;
+         color: black;
+    }
 @media screen and (min-width: 992px) {
     .navbar {
         background: transparent;
