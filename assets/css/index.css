@@ -206,7 +206,6 @@ section {
 }
 
 .title p {
-    margin-left: -60rem;
     margin-top: 3.9rem;
     font-weight: bold;
 }
@@ -424,12 +423,6 @@ p2 {
     .ftr{
         flex-wrap: nowrap;
     }
-    .title .text {
-    font-weight: 200;
-    font-size: 3.1rem;
-    font-family: sans-serif;
-    text-decoration: dashed;
-}
     
 @media screen and (min-width: 992px) {
     .navbar {
